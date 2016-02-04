@@ -1,0 +1,37 @@
+{
+  "name": "angularjs-typescript-in20",
+  "version": "1.0.0",
+  "description": "AngularJS and TypeScript",
+  "contributors": [
+    {
+      "name": "Dan Wahlin"
+    }
+  ],
+  "scripts": {
+    "start": "gulp serve",
+    "postinstall": "tsd reinstall -so && gulp"
+  },
+  "keywords": [
+    "angularjs",
+    "typescript"
+  ],
+  "license": "ISC",
+  "dependencies": {
+
+  },
+  "devDependencies": {
+    "browser-sync": "^2.10.1",
+    "del": "^2.2.0",
+    "gulp": "^3.9.0",
+    "gulp-debug": "^2.1.2",
+    "gulp-inject": "^3.0.0",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-tslint": "^4.2.1",
+    "gulp-typescript": "^2.10.0",
+    "gulp-tsd": "^0.0.4",
+    "tsd": "^0.6.5",
+    "typescript": "^1.7.5",
+    "superstatic": "^4.0.0",
+    "tslint": "^3.2.1"
+  }
+}

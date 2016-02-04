@@ -1,0 +1,15 @@
+
+## Directory-based project format:
+.idea
+
+node_modules
+
+!tools/typings
+tools/typings/*
+!tools/typings/tsd.d.ts
+!tools/typings/typescriptApp.d.ts
+
+# all generated JS
+src/js
+src/app/**/*.js
+src/app/**/*.js.map

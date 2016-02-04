@@ -10,6 +10,9 @@
     },
     "firebase-token-generator/firebase-token-generator.d.ts": {
       "commit": "e69fe60f2d6377ea4fae539493997b098f52cad1"
+    },
+    "knex/knex.d.ts": {
+      "commit": "e69fe60f2d6377ea4fae539493997b098f52cad1"
     }
   }
 }
